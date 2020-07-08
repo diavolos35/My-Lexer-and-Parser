@@ -1,0 +1,65 @@
+tamsayi kelimeUzunlugu;
+esitle(kelimeUzunlugu, 22);
+dizi karakter karisik[kelimeUzunlugu];
+dizi tamsayi sifreSirasi[kelimeUzunlugu];
+
+esitle(eleman(karisik, 0), 'A');
+esitle(eleman(karisik, 1), 'L');
+esitle(eleman(karisik, 2), 'E');
+esitle(eleman(karisik, 3), 'C');
+esitle(eleman(karisik, 4), 'Y');
+esitle(eleman(karisik, 5), 'A');
+esitle(eleman(karisik, 6), 'B');
+esitle(eleman(karisik, 7), 'L');
+esitle(eleman(karisik, 8), 'N');
+esitle(eleman(karisik, 9), 'U');
+esitle(eleman(karisik, 10), 'R');
+esitle(eleman(karisik, 11), 'A');
+esitle(eleman(karisik, 12), 'R');
+esitle(eleman(karisik, 13), 'E');
+esitle(eleman(karisik, 14), 'V');
+esitle(eleman(karisik, 15), 'I');
+esitle(eleman(karisik, 16), 'E');
+esitle(eleman(karisik, 17), 'T');
+esitle(eleman(karisik, 18), 'I');
+esitle(eleman(karisik, 19), 'S');
+esitle(eleman(karisik, 20), 'I');
+esitle(eleman(karisik, 21), 'S');
+
+
+esitle(eleman(sifreSirasi, 0), 3);
+esitle(eleman(sifreSirasi, 1), 13);
+esitle(eleman(sifreSirasi, 2), 7);
+esitle(eleman(sifreSirasi, 3), 0);
+esitle(eleman(sifreSirasi, 4), 1);
+esitle(eleman(sifreSirasi, 5), 6);
+esitle(eleman(sifreSirasi, 6), 11);
+esitle(eleman(sifreSirasi, 7), 4);
+esitle(eleman(sifreSirasi, 8), 5);
+esitle(eleman(sifreSirasi, 9), 10);
+esitle(eleman(sifreSirasi, 10), 9);
+esitle(eleman(sifreSirasi, 11), 8);
+esitle(eleman(sifreSirasi, 12), 18);
+esitle(eleman(sifreSirasi, 13), 14);
+esitle(eleman(sifreSirasi, 14), 2);
+esitle(eleman(sifreSirasi, 15), 12);
+esitle(eleman(sifreSirasi, 16), 21);
+esitle(eleman(sifreSirasi, 17), 15);
+esitle(eleman(sifreSirasi, 18), 17);
+esitle(eleman(sifreSirasi, 19), 16);
+esitle(eleman(sifreSirasi, 20), 19);
+esitle(eleman(sifreSirasi, 21), 20);
+
+yazi sirali;
+tamsayi i;
+dongu(kucuktur(i, kelimeUzunlugu)){
+	esitle(sirali, birlestir(sirali, eleman(karisik, eleman(sifreSirasi, i))));
+	esitle(i, topla(i,1));
+}
+yazdir(sirali);
+
+
+
+
+
+

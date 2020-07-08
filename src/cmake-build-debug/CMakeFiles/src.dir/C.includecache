@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/karta/Downloads/MustafaCemOnan-BaranGezenoglu-GulbenEmiroglu/src/lexer.c
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+conio.h
+-
+lexer.h
+C:/Users/karta/Downloads/MustafaCemOnan-BaranGezenoglu-GulbenEmiroglu/src/lexer.h
+
+C:/Users/karta/Downloads/MustafaCemOnan-BaranGezenoglu-GulbenEmiroglu/src/lexer.h
+
+C:/Users/karta/Downloads/MustafaCemOnan-BaranGezenoglu-GulbenEmiroglu/src/parser.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+conio.h
+-
+lexer.h
+C:/Users/karta/Downloads/MustafaCemOnan-BaranGezenoglu-GulbenEmiroglu/src/lexer.h
+parser.h
+C:/Users/karta/Downloads/MustafaCemOnan-BaranGezenoglu-GulbenEmiroglu/src/parser.h
+
+C:/Users/karta/Downloads/MustafaCemOnan-BaranGezenoglu-GulbenEmiroglu/src/parser.h
+

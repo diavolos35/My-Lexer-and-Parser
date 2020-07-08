@@ -1,0 +1,36 @@
+tamsayi boyut;
+esitle(boyut, 50);
+dizi mantiksal asalsaDogruDegilseYanlis[boyut];
+
+tamsayi i;
+esitle(i, 3);
+tamsayi j;
+tamsayi k;
+tamsayi asalMi;
+
+esitle(eleman(asalsaDogruDegilseYanlis, 2), dogru);
+
+dongu(kucuktur(i, boyut)){
+	esitle(j,2);
+	esitle(k,2);
+	esitle(asalMi, 1);
+	
+	dongu(kucuktur(j, i)){
+		esitle(k, j);
+		dongu(kucuktur(k, i)){		
+			eger(esittir(carp(j,k),i)){
+				esitle(asalMi, 0);
+			}		
+			esitle(k, topla(k,1));
+		}		
+		esitle(j, topla(j,1));
+	}	
+	eger(esittir(asalMi, 1)){
+		esitle(eleman(asalsaDogruDegilseYanlis, i), dogru);
+	}	
+	esitle(i, topla(i,1));		
+}
+	
+
+yazdir(asalsaDogruDegilseYanlis);
+

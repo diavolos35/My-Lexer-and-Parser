@@ -1,0 +1,22 @@
+tamsayi boyut;
+esitle(boyut, bol(topla(carp(6,2), topla(36,12)) , cikar(17, 14)));
+esitle(boyut, cikar(carp(boyut, topla(0.9, 0.45)) , bol(topla(boyut,1), 3)));
+
+dizi tamsayi fibo[topla(bol(boyut,2), carp(boyut, 0.5))];
+
+tamsayi toplam;
+tamsayi s1;
+tamsayi s2;
+esitle(s2, 1);
+
+tamsayi i;
+dongu(kucuktur(i, boyut)){
+	esitle(eleman(fibo, i), s1);
+	esitle(toplam, topla(s1, s2));
+	esitle(s1, s2);
+	esitle(s2, toplam);
+	esitle(i, topla(i,1));
+}
+
+yazdir(fibo);
+
